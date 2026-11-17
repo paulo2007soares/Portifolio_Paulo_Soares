@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paulo Henrique Soares — Portfólio</title>
+<meta name="description" content="Portfólio profissional de Paulo Henrique Soares: estudante de ADS na FATEC Americana, técnico em Desenvolvimento de Sistemas e profissional com experiência em tecnologia, eventos, comunicação e mídia.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+    <div class="tabbar">
+        <a href="#home" class="logo"><span class="logo-fn">Paulo Soares</span><span class="logo-paren">()</span></a>
+
+        <nav class="navigation" id="navigation">
+            <a href="#home" class="nav-link active" data-tab="home.py">Início</a>
+            <a href="#about" class="nav-link" data-tab="about.py">Sobre</a>
+            <a href="#trajetoria" class="nav-link" data-tab="trajetoria.py">Trajetória</a>
+            <a href="#skills" class="nav-link" data-tab="skills.py">Skills</a>
+            <a href="#projects" class="nav-link" data-tab="projects.py">Projetos</a>
+            <a href="#contact" class="nav-link" data-tab="contact.py">Contato</a>
+        </nav>
+
+        <a href="#contact" class="btn-talk">
+            <span class="prompt">$</span> fale_comigo
+        </a>
+
+        <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="home" id="home">
+    <div class="home-bg-glow"></div>
+
+    <div class="content">
+        <p class="eyebrow"><span class="dot"></span> tecnologia · sistemas · comunicação · eventos</p>
+
+        <h1>Olá, eu sou <span class="highlight">Paulo Soares</span></h1>
+
+        <h2 class="typewriter-line">
+            <span id="typewriter"></span><span class="caret">_</span>
+        </h2>
+
+        <p class="lede">
+            Profissional da <strong>ACIA</strong>, estudante de Análise e Desenvolvimento
+            de Sistemas na <strong>FATEC Americana</strong> e Técnico em Desenvolvimento
+            de Sistemas pela ETEC Polivalente. Uno tecnologia, organização, comunicação,
+            criação de conteúdo e apoio a eventos para transformar ideias em resultados.
+        </p>
+
+        <div class="btn-group">
+            <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+            <a href="#contact" class="btn btn-ghost">Fale Comigo</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/paulo-henrique-soares-5943792a2" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/paulo2007soares" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/phsoares07_/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/paulo.henrique.249246" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/5519991309225" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:soares.paulo2007@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <div class="terminal-wrap">
+        <div class="terminal">
+            <div class="terminal-titlebar">
+                <div class="terminal-dots">
+                    <span></span><span></span><span></span>
+                </div>
+                <span class="terminal-filename">paulo.py</span>
+            </div>
+            <div class="terminal-body">
+                <pre><code><span class="c-key">class</span> <span class="c-class">Developer</span>:
+    <span class="c-key">def</span> <span class="c-fn">__init__</span>(<span class="c-self">self</span>):
+        <span class="c-self">self</span>.nome = <span class="c-str">"Paulo Henrique Soares"</span>
+        <span class="c-self">self</span>.atuacao = <span class="c-str">"ACIA"</span>
+        <span class="c-self">self</span>.formacao = <span class="c-str">"ADS — FATEC Americana"</span>
+        <span class="c-self">self</span>.certificacao = <span class="c-str">"CS50P — Harvard"</span>
+        <span class="c-self">self</span>.interesses = [
+            <span class="c-str">"Desenvolvimento"</span>, <span class="c-str">"Eventos"</span>,
+            <span class="c-str">"Mídia"</span>, <span class="c-str">"Design"</span>,
+        ]
+
+    <span class="c-key">def</span> <span class="c-fn">disponibilidade</span>(<span class="c-self">self</span>):
+        <span class="c-key">return</span> <span class="c-bool">True</span>
+
+<span class="c-comment"># >>> paulo = Developer()</span>
+<span class="c-comment"># >>> paulo.disponibilidade()</span>
+<span class="c-out">True</span><span class="blink-block">▌</span></code></pre>
+            </div>
+        </div>
+        <div class="photo-badge">
+            <img src="paulo_soares.jpg" alt="Foto de Paulo Henrique">
+        </div>
+    </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+    <p class="section-tag"># sobre</p>
+    <h2 class="section-title">Quem escreveu esse código</h2>
+
+    <div class="about-grid">
+        <div class="about-photo">
+            <div class="about-photo-frame">
+                <img src="paulo_soares.jpg" alt="Paulo Henrique">
+            </div>
+        </div>
+
+        <div class="about-text">
+            <p>
+                Sou <strong>Paulo Henrique Soares</strong>, de Americana/SP, e construo
+                minha trajetória conectando tecnologia, criatividade e comunicação.
+                Tenho experiência com suporte técnico, atendimento, organização de
+                informações, elaboração de relatórios, produção de conteúdo para redes
+                sociais, criação de artes digitais e apoio à realização de eventos.
+            </p>
+            <p>
+                Atualmente trabalho na <strong>ACIA</strong>. Antes, atuei como estagiário
+                na <strong>Secretaria de Meio Ambiente da Prefeitura de Americana</strong>,
+                junto à equipe de Educação Ambiental (UEAPPA), encerrando esse ciclo com
+                experiências em suporte de informática, atendimento ao público e apoio
+                administrativo e de comunicação.
+            </p>
+            <p>
+                Sou estudante de <strong>Análise e Desenvolvimento de Sistemas na FATEC
+                Americana</strong> (início em 2025; previsão de conclusão em dezembro de
+                2026) e concluí o Ensino Médio integrado ao Técnico em Desenvolvimento
+                de Sistemas na <strong>ETEC Polivalente de Americana</strong> (2022–2024).
+                Também concluí o <strong>CS50P — Introduction to Programming with Python,
+                da Harvard University</strong>, e sigo ampliando meus conhecimentos em
+                tecnologia e desenvolvimento de software.
+            </p>
+
+            <div class="about-facts">
+                <div class="fact">
+                    <span class="fact-num">ACIA</span>
+                    <span class="fact-label">atuação profissional atual</span>
+                </div>
+                <div class="fact">
+                    <span class="fact-num">ADS</span>
+                    <span class="fact-label">FATEC Americana</span>
+                </div>
+                <div class="fact">
+                    <span class="fact-num">CS50P</span>
+                    <span class="fact-label">Harvard University</span>
+                </div>
+            </div>
+
+            <div class="lang-tags">
+                <span class="lang-tag">Desenvolvimento de Sistemas</span>
+                <span class="lang-tag">Suporte e Tecnologia</span>
+                <span class="lang-tag">Comunicação e Design</span>
+                <span class="lang-tag">Eventos e Mídia</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== TRAJETÓRIA (Formação + Experiência) ===== -->
+<section class="timeline-section" id="trajetoria">
+    <p class="section-tag"># trajetória</p>
+    <h2 class="section-title">git log --formacao --experiencia</h2>
+
+    <div class="timeline-grid">
+        <div class="timeline-col">
+            <h3 class="timeline-heading"><i class="fas fa-graduation-cap"></i> Formação Acadêmica</h3>
+            <div class="timeline-item">
+                <span class="timeline-date">2025 — dez/2026 <em>(em andamento)</em></span>
+                <h4>Análise e Desenvolvimento de Sistemas</h4>
+                <p>FATEC Americana — Centro Paula Souza</p>
+                <p class="timeline-desc">Formação superior com foco em análise, projeto e desenvolvimento de sistemas.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">2022 — 2024 <em>(concluído)</em></span>
+                <h4>Ensino Médio integrado ao Técnico em Desenvolvimento de Sistemas</h4>
+                <p>ETEC Polivalente de Americana — Programa AMS / P-TECH</p>
+                <p class="timeline-desc">Formação técnica em desenvolvimento de sistemas. Atuação como representante de turma no 3º AMS.</p>
+            </div>
+            <h3 class="timeline-heading" style="margin-top: 30px;"><i class="fas fa-certificate"></i> Cursos e Formação Complementar</h3>
+            <div class="timeline-item">
+                <span class="timeline-date">Concluído</span>
+                <h4>CS50P — Introduction to Programming with Python</h4>
+                <p>Harvard University / edX</p>
+                <p class="timeline-desc">Curso de programação com Python, lógica, funções, testes e resolução de problemas.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">90 horas</span>
+                <h4>IBM Workplace Learning</h4>
+                <p>Programa de aprendizagem — IBM / P-TECH</p>
+                <p class="timeline-desc">Formação complementar realizada durante a trajetória técnica, com desenvolvimento de competências profissionais.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">Formação contínua</span>
+                <h4>IBM SkillsBuild</h4>
+                <p>Mais de 20 cursos e trilhas de aprendizagem</p>
+                <p class="timeline-desc">Aprimoramento contínuo em tecnologia, ferramentas digitais e competências profissionais.</p>
+            </div>
+        </div>
+
+        <div class="timeline-col">
+            <h3 class="timeline-heading"><i class="fas fa-briefcase"></i> Experiência Profissional</h3>
+            <div class="timeline-item">
+                <span class="timeline-date">2026 — atual <em>(atual)</em></span>
+                <h4>Colaborador — ACIA</h4>
+                <p>Associação Comercial e Industrial de Americana</p>
+                <p class="timeline-desc">Atuação profissional na ACIA, com interesse e participação em atividades ligadas a eventos e desenvolvimento de sistemas.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">10/03/2025 — 2026 <em>(encerrado)</em></span>
+                <h4>Estagiário — Secretaria de Meio Ambiente</h4>
+                <p>Prefeitura Municipal de Americana — equipe UEAPPA / Educação Ambiental</p>
+                <p class="timeline-desc">Suporte técnico em informática e manutenção de computadores; atendimento a usuários e ao público; apoio administrativo; elaboração de relatórios e organização de informações; criação de conteúdos para redes sociais e artes digitais para ações de educação ambiental.</p>
+            </div>
+
+            <h3 class="timeline-heading" style="margin-top:30px"><i class="fas fa-hand-holding-heart"></i> Terceiro Setor e Voluntariado</h3>
+            <div class="timeline-item timeline-item-volunteer">
+                <span class="timeline-date">Atuação voluntária</span>
+                <h4>Mídia — AD Brás Americana</h4>
+                <p>Comunicação, criação e operação de mídia</p>
+                <p class="timeline-desc">Apoio voluntário na comunicação da igreja, com produção de conteúdos e artes para redes sociais, suporte à transmissão de cultos e eventos e operação de recursos de mídia.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="soft-skills">
+        <span class="soft-skill"><i class="fas fa-comments"></i> Comunicação</span>
+        <span class="soft-skill"><i class="fas fa-users"></i> Trabalho em equipe</span>
+        <span class="soft-skill"><i class="fas fa-bolt"></i> Proatividade</span>
+        <span class="soft-skill"><i class="fas fa-list-check"></i> Organização</span>
+        <span class="soft-skill"><i class="fas fa-handshake"></i> Relacionamento interpessoal</span>
+        <span class="soft-skill"><i class="fas fa-lightbulb"></i> Criatividade</span>
+    </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="skills" id="skills">
+    <p class="section-tag"># stack</p>
+    <h2 class="section-title">import minhas_skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card"><span class="skill-import">tech</span><h3>Python</h3><p>Lógica de programação, funções, orientação a objetos e automação.</p></div>
+        <div class="skill-card"><span class="skill-import">web</span><h3>HTML, CSS &amp; JavaScript</h3><p>Desenvolvimento de páginas, interfaces responsivas e interatividade.</p></div>
+        <div class="skill-card"><span class="skill-import">backend</span><h3>Java &amp; Spring Boot</h3><p>Desenvolvimento back-end, APIs REST, validações e testes automatizados.</p></div>
+        <div class="skill-card"><span class="skill-import">backend</span><h3>PHP &amp; APIs</h3><p>Desenvolvimento back-end e integração de sistemas.</p></div>
+        <div class="skill-card"><span class="skill-import">database</span><h3>Banco de Dados</h3><p>Experiência acadêmica com MySQL e MongoDB, consultas e persistência de dados.</p></div>
+        <div class="skill-card"><span class="skill-import">tools</span><h3>Git &amp; GitHub</h3><p>Versionamento de código e organização de projetos.</p></div>
+        <div class="skill-card"><span class="skill-import">support</span><h3>Suporte Técnico</h3><p>Manutenção de computadores, suporte a usuários e resolução de problemas.</p></div>
+        <div class="skill-card"><span class="skill-import">office</span><h3>Microsoft Office</h3><p>Word, Excel e PowerPoint aplicados a documentos, planilhas e relatórios.</p></div>
+        <div class="skill-card"><span class="skill-import">creative</span><h3>Design e Mídia Digital</h3><p>Criação de artes, materiais gráficos e conteúdo para redes sociais.</p></div>
+        <div class="skill-card"><span class="skill-import">workflow</span><h3>Organização e Eventos</h3><p>Apoio à organização de atividades, comunicação e rotinas institucionais.</p></div>
+    </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="projects" id="projects">
+    <p class="section-tag"># projetos</p>
+    <h2 class="section-title">git log --recentes</h2>
+
+    <div class="projects-grid">
+        <article class="project-card">
+            <div class="project-head"><i class="fas fa-wallet"></i><span class="project-file">controle_de_gastos</span></div>
+            <h3>Controle de Gastos</h3>
+            <p>Projeto acadêmico de sistema para controle financeiro, com API, validações, persistência de dados e testes automatizados.</p>
+            <div class="project-tags"><span>Java 21</span><span>Spring Boot</span><span>MongoDB</span><span>JUnit</span></div>
+        </article>
+        <article class="project-card">
+            <div class="project-head"><i class="fas fa-lemon"></i><span class="project-file">pascolli_citrus</span></div>
+            <h3>Pascolli Citrus</h3>
+            <p>Desenvolvimento de site para uma marca de sucos naturais, com catálogo de produtos, pedidos via WhatsApp e área administrativa.</p>
+            <div class="project-tags"><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project-card">
+            <div class="project-head"><i class="fas fa-code"></i><span class="project-file">portfolio_pessoal</span></div>
+            <h3>Portfólio Profissional</h3>
+            <p>Site pessoal para apresentar minha formação, experiências, competências, projetos e canais de contato.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI</span></div>
+            <div class="project-links"><a href="https://github.com/paulo2007soares" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a><a href="https://paulo2007soares.github.io/Portifolio_Paulo_Soares/" target="_blank" rel="noopener">Site <i class="fas fa-arrow-up-right-from-square"></i></a></div>
+        </article>
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+    <div class="contact-inner">
+        <p class="section-tag"># contato</p>
+        <h2 class="section-title">Vamos conversar?</h2>
+        <p class="contact-sub">
+            Quer conversar sobre tecnologia, desenvolvimento de sistemas, eventos,
+            comunicação ou projetos? Entre em contato pelos canais abaixo.
+        </p>
+
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/mkodwekd" method="POST">
+            <div class="form-row">
+                <label for="name"><span class="prompt">&gt;&gt;&gt;</span> nome =</label>
+                <input type="text" id="name" name="name" placeholder='"seu nome"' required>
+            </div>
+            <div class="form-row">
+                <label for="phone"><span class="prompt">&gt;&gt;&gt;</span> telefone =</label>
+                <input type="tel" id="phone" name="phone" placeholder='"(19) 99999-9999"' required>
+            </div>
+            <div class="form-row">
+                <label for="email"><span class="prompt">&gt;&gt;&gt;</span> email =</label>
+                <input type="email" id="email" name="email" placeholder='"seu@email.com"' required>
+            </div>
+            <div class="form-row">
+                <label for="message"><span class="prompt">&gt;&gt;&gt;</span> mensagem =</label>
+                <textarea id="message" name="message" rows="4" placeholder='"escreva aqui..."' required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit">
+                enviar_mensagem() <i class="fas fa-arrow-right"></i>
+            </button>
+
+            <div class="form-status" id="form-status" aria-live="polite"></div>
+        </form>
+
+        <div class="social-icons contact-social">
+            <a href="https://www.linkedin.com/in/paulo-henrique-soares-5943792a2" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/paulo2007soares" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/phsoares07_/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/paulo.henrique.249246" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/5519991309225" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:soares.paulo2007@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <p class="footer-code"># Filipenses 2:13</p>
+    <p class="footer-copy">© <span id="year"></span> Paulo Soares. Todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

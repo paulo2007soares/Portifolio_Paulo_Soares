@@ -11,10 +11,11 @@ document.getElementById('year').textContent = new Date().getFullYear();
     if (!el) return;
 
     const phrases = [
-        'Python Developer',
-        'Backend & Automação',
-        'Estudante ADS — FATEC',
-        'Certificado CS50P Harvard'
+        'Tecnologia & Desenvolvimento',
+        'Estudante ADS — FATEC Americana',
+        'Colaborador na ACIA',
+        'Comunicação, Mídia & Eventos',
+        'Python | Java | Desenvolvimento Web'
     ];
 
     let phraseIndex = 0;
